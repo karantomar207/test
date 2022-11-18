@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------TOPNAV AND NAVBAR--------------- */
+
+#Topnav{
+    display: flex;
+    background-color: rgb(29, 27, 27);
+    color: white;
+    position: sticky;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+#topheadFirst{
+    margin-left: 300px;
+    margin: 30px 21px 30px 500px;
+    padding: 4px 8px;
+    border: 2px solid rgb(27, 26, 26);
+    background-color: rgb(230, 89, 89);
+    border-radius: 22px;
+    text-decoration: none;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+#topheadFirst:hover{
+    background-color: blue;
+    
+}
+#topheadSecond{
+    margin: 36px 10px;
+}
+
+/* ------------------------------------------------------- */
+#navbar{
+    background-color: rgb(230, 89, 89);
+  
+    font-family: 'Baloo Tamma 2', cursive;
+    display: flex;
+    
+}
+
+
+#navbar ul{ 
+    display: flex;
+    text-align: center;
+    width: 1424px;
+}
+
+#navbar img{
+    height: 50px;
+    width: 50px;
+   
+}
+
+
+#navbar ul li{
+    list-style: none;
+    margin:10px 10px;
+    padding: 20px 33px;
+}
+
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid black;
+    background-color: black;
+    margin: 10px 10px;
+    padding: 4px 18px;
+    border-radius: 5px;
+}
+#navbar img{
+    
+    margin-left: -169px;
+    padding: 17px 18px;
+    justify-content: center;
+
+}
+#navbar ul li a:hover{
+    background-color: rgba(87, 86, 16, 0.116);
+    
+}
+
+
+/* --------------------------------Background photo--------------------- */
+body{
+    background: url(./mountains.jpg) no-repeat center center/cover;
+    top: 0;
+    bottom: 0;
+    height: 500px ;
+    opacity: 0.9;
+    
+  
+}
+
+
+#Bigtext{
+    margin-top: 157px;
+    margin-left: 160px;
+    padding: 10px 10px;
+    font-size: 64px;
+    color: white;
+}
+
+#downtext{
+margin-top: 5px;
+margin-left: 160px;
+padding: 10px 10px;
+color: white;
+margin-bottom: 15px;
+font-family: 'Baloo Tamma 2', cursive;
+}
+
+#content a{
+    border: 2px solid rgb(255, 254, 254);
+    color: white;
+    margin: 12px 164px;
+    padding: 7px 31px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#content a:hover{
+   background-color: rgb(80, 255, 255);
+}
+
+/* ----------------------------------------- Second page */
+
+#secondpage{
+    margin: 163px;
+    
+}
+
+
+#Big{
+    font-size: 40px;
+}
+#forflex{
+    display: flex;
+}
+
+#paragraph{
+    margin: 163px;
+    font-size: 16px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+
+/* -------------------------------------------------------- */
+
+
+#Sections{
+    display: flex;
+
+}
+.firstdiv{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    height: 250px;
+    width: 350px;
+    margin: -106px 56px;
+    padding: 39px 20px;
+
+}
+#number{
+
+    padding: 10px 10px ;
+    font-size: 30px;
+    margin: 10px 10px;
+    font-weight: bold;
+    font-family: 'Baloo Tamma 2', cursive;
+   
+}
+
+#word{
+    font-size: 30px;
+    margin: 35px 73px;
+    padding: -1px 10px;
+    font-weight: bold;
+    font-family: 'Baloo Tamma 2', cursive;
+   
+}
+
+
+/* ------------------------------------------------------------ */
+
+#paras{
+    display: flex;
+    margin: 100px 50px;
+    font-size: 17px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+#firstpara{
+    margin: 24px -2px;
+    padding: 17px 10px;
+}
+#secondpara{
+    margin: 24px 17px;
+    padding: 10px 100px;
+    font-family: 'Baloo Tamma 2', cursive;
+
+}
+#thirdpara{
+    margin: 24px 10px;
+    padding: 10px 10px;
+
+}
+
+/* ---------------------------------------------------------- */
+
+#containernew{
+    height: 500px;
+  
+    margin: -86px 0px;
+    padding: 10px 10px;
+    background-image: url('Greengrass.jpg');
+    font-family: 'Baloo Tamma 2', cursive;
+   
+}
+#containernew a{
+    
+    border-radius: 13px;
+    padding: 10px 31px;
+    margin: 20px 30px 20px 1150px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+   
+    
+}
+
+#tagline{
+    font-size: 47px;
+    font-weight: bold;
+    margin: 96px 30px 20px 800px;
+    padding: 10px 10px;
+    color: white;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+
+
+#secondtagline{
+    font-size: 20px;
+    margin: 20px 30px 20px 800px;
+   padding: 10px 10px;
+   
+    
+    color: white;
+
+}
+
+
+/* ------------------------------------- */
+#smalldiv{
+   
+    margin: 150px 200px;
+    padding: 10px 10px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+#bighead{
+    font-size: 43px;
+    font-weight: bold;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+/* -------------------------------------------- */
+
+#outerdiv{
+    display: flex;
+    margin: -118px 0px 10px 177px;
+
+}
+
+#innerdivfirst{
+    height: 400px;
+    width: 350px;
+    margin: 10px 10px;
+    padding: 10px 10px ;
+    border: 2px solid black;
+    background-image: url('tent.jpg');
+}
+
+#innerdivsecond{
+    height: 400px;
+    width: 350px;
+    margin: 10px 10px;
+    padding: 10px 10px ;
+    border: 2px solid black;
+    background-image: url('cup.jpg');
+}
+
+#innerdivthird{
+    height: 400px;
+    width: 350px;
+    margin: 10px 10px;
+    padding: 10px 10px ;
+    border: 2px solid black;
+    background-image: url('bag.jpg');
+}
+
+/* ------------------------------------------------------------- */
+
+#price{
+    display: flex;
+    margin: -19px 33px;
+    padding: 10px 10px;
+    justify-content: space-evenly;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.pricetag{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    
+
+}
+#details{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 0px;
+    padding: 10px 0px;
+}
+#details a{
+    margin: 10px -25px;
+    padding: 7px 26px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Baloo Tamma 2', cursive;
+
+}
+
+#shortdiv{
+    margin: 30px 664px;
+ 
+    padding: 10px 10px;
+}
+
+#shortdiv a
+{
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px 2px;
+    padding: 10px 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+/* -------------------------------- */
+
+#containphoto{
+    position: relative;
+    display: flex;
+    height:630px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0px;
+    margin: 50px 0px  50px 0px;
+
+}
+#containphoto img{
+    position: relative;
+    height: 455px;
+    width: 353px;
+    left: 200px;
+    top: 67px;
+    border-radius: 5px;
+}
+
+
+#datanew{
+   
+    background-color: rgb(0, 0, 0);
+    height: 560px;
+    width: 1004px;
+    margin: 10px 96px;
+    padding: 10px 10px;
+    color: white;
+    
+
+}
+
+#shoplocal{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+#localpara{
+    font-size: 17px;
+    margin: 40px 10px;
+    font-family: cursive;
+    text-align: center;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+/* ------------------------------ */
+#foot{
+    background-color: black;
+}
+.last{
+    display: flex;
+}
+#acme{
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+#acme img{
+    height: 35px;
+    width: 110px;
+    margin: 50px 115px;
+}
+
+
+#logo{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    
+
+}
+
+#logo img{
+    height: 147px;
+    width: 160px;
+    margin: 0px 20px 40px 850px;
+}
+
+#last{
+    margin: -42px 630px;
+    color: white;
+    padding: 10px 10px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
